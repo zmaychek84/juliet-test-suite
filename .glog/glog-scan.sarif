@@ -1,0 +1,1502 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
+          "fullName": "Glog, Making software more secure",
+          "version": "1.0.0",
+          "semanticVersion": "1.0.0",
+          "informationUri": "https://www.glog.ai",
+          "rules": [
+            {
+              "id": "8fb68bee-2582-31ba-92d5-ee874ed734b2",
+              "name": "resources.rules.python.use-sys-exit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-sys-exit"
+              },
+              "fullDescription": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "79188393-b978-3540-983c-7fb10462db95",
+              "name": "resources.rules.python.use-sys-exit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-sys-exit"
+              },
+              "fullDescription": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "3578840f-6496-3b2f-944b-7c377c56d86f",
+              "name": "resources.rules.python.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "bf9e6d03-cd4f-3b0a-843a-dd913fbfd071",
+              "name": "resources.rules.python.use-sys-exit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-sys-exit"
+              },
+              "fullDescription": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "8b5b54bf-bb8b-3d5a-86ef-5cdda6afba98",
+              "name": "resources.rules.python.use-sys-exit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-sys-exit"
+              },
+              "fullDescription": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "b3339c37-11d2-3cbe-82a1-816ddac32ade",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "1f21b64c-c277-3681-b5c9-fcc20fdcf621",
+              "name": "resources.rules.python.unquoted-csv-writer",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.unquoted-csv-writer"
+              },
+              "fullDescription": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://affinity-it-security.com/how-to-prevent-csv-injection/](https://affinity-it-security.com/how-to-prevent-csv-injection/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "4567c2a6-9c61-3813-a83d-71abf4ddca87",
+              "name": "resources.rules.python.python-obfuscation-override",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.python-obfuscation-override"
+              },
+              "fullDescription": {
+                "text": "Obfuscation by overriding builtin constructs."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Obfuscation by overriding builtin constructs.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Obfuscation by overriding builtin constructs.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "19db7392-6257-39a6-90f4-54582458dd6a",
+              "name": "resources.rules.python.dangerous-subprocess-use",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dangerous-subprocess-use"
+              },
+              "fullDescription": {
+                "text": "Detected subprocess function '$FUNC' without a static string. If this data can be\ncontrolled by a malicious actor, it may be an instance of command injection.\nAudit the use of this call to ensure it is not controllable by an external resource.\nYou may consider using 'shlex.escape()'.\n"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Detected subprocess function '$FUNC' without a static string. If this data can be\ncontrolled by a malicious actor, it may be an instance of command injection.\nAudit the use of this call to ensure it is not controllable by an external resource.\nYou may consider using 'shlex.escape()'.\n\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Detected subprocess function '$FUNC' without a static string. If this data can be\ncontrolled by a malicious actor, it may be an instance of command injection.\nAudit the use of this call to ensure it is not controllable by an external resource.\nYou may consider using 'shlex.escape()'.\n\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://stackoverflow.com/questions/3172470/actual-meaning-of-shell-true-in-subprocess](https://stackoverflow.com/questions/3172470/actual-meaning-of-shell-true-in-subprocess)\n - [https://docs.python.org/3/library/subprocess.html](https://docs.python.org/3/library/subprocess.html)\n - [https://docs.python.org/3/library/shlex.html](https://docs.python.org/3/library/shlex.html)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "5c2c0280-eef1-363b-b00d-73e95b926304",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "b259ca19-6365-38f0-bd82-7c091d8279cf",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "44ef2e67-a43a-3c1d-9c03-f3ec2f3c076a",
+              "name": "resources.rules.python.unquoted-csv-writer",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.unquoted-csv-writer"
+              },
+              "fullDescription": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://affinity-it-security.com/how-to-prevent-csv-injection/](https://affinity-it-security.com/how-to-prevent-csv-injection/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "e7dd6de7-26ed-313f-a1a8-06bfb34c5e98",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "617271b1-377f-3990-967b-cf44560b3d24",
+              "name": "resources.rules.python.use-sys-exit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.use-sys-exit"
+              },
+              "fullDescription": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "fb074e50-126a-36cf-99ed-1f1d25dec85b",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "f236d80d-89e1-3e20-b776-00b4b7d90bc2",
+              "name": "resources.rules.python.unquoted-csv-writer",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.unquoted-csv-writer"
+              },
+              "fullDescription": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://affinity-it-security.com/how-to-prevent-csv-injection/](https://affinity-it-security.com/how-to-prevent-csv-injection/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "308bc29a-1b9f-3c01-a668-15fdad148532",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "2aa511d7-161e-364c-ac56-720168fa9a92",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "70c0afc4-3070-3392-8a72-fcc8f7fcd131",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "1d1f101d-84fb-3ace-8150-88c3b2112ab1",
+              "name": "resources.rules.python.unquoted-csv-writer",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.unquoted-csv-writer"
+              },
+              "fullDescription": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://affinity-it-security.com/how-to-prevent-csv-injection/](https://affinity-it-security.com/how-to-prevent-csv-injection/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "95a58be7-2583-34cf-92db-e759611ea8ec",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "9b54a113-e66d-3bf0-a015-1d8f06f15c36",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "53208c83-9bb9-3307-82f2-ea624115e01c",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "76fcc9cf-a894-3bd1-a1c3-b487bdc389f9",
+              "name": "resources.rules.python.dlint-catastrophic-redos",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.python.dlint-catastrophic-redos"
+              },
+              "fullDescription": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Regex `$X` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/](https://r2c.dev/blog/2020/finding-python-redos-bugs-at-scale-using-dlint-and-r2c/)\n - [https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/](https://r2c.dev/blog/2020/improving-redos-detection-with-dlint-and-r2c/)\n"
+              },
+              "properties": {
+                "precision": "very-high"
+              }
+            },
+            {
+              "id": "90b3a8ca-0960-3292-b941-f4f3fbbeb3bd",
+              "name": "Banned C function detected (strncpy)",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "This finding is classified as a genuine vulnerability because the analysis identified a risk of undefined behavior due to possible overlap between the source and destination memory regions in the buffer copy operation. The code copies data from one buffer to another using a function that does not support overlapping memory regions, and dataflow analysis suggests that the source and destination may refer to overlapping memory. Additionally, there is no explicit check to ensure that the source pointer is not null, which could also lead to undefined behavior. The destination buffer is a fixed-size array, so buffer overflow is less likely, but the overlap and null pointer risks make this a high-confidence issue that should be addressed.\n\n## In Context Remediation 1\nBefore performing the buffer copy, ensure that the source and destination memory regions do not overlap. You can add a runtime check to verify that the memory ranges are distinct:\n\n```cpp\nif ((result + length <= mfile) || (mfile + length <= result)) {\n    strncpy(result, mfile, length);\n} else {\n    // Handle overlap case appropriately, e.g., use memmove or report an error\n}\n```\nThis check ensures that the memory regions do not overlap before calling the copy function, preventing undefined behavior.\n\n## In Context Remediation 2\nIf overlapping memory regions are possible and must be handled, use a function that is safe for overlapping regions, such as `memmove`:\n\n```cpp\nmemmove(result, mfile, length);\n```\nThis function is designed to handle overlapping memory safely and avoids undefined behavior.\n\n## References\n- [OWASP C-Based Toolchain Hardening Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/C-Based_Toolchain_Hardening_Cheat_Sheet.html)\n- [CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer](https://cwe.mitre.org/data/definitions/119.html)\n- [CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')](https://cwe.mitre.org/data/definitions/120.html)\n- [CWE-787: Out-of-bounds Write](https://cwe.mitre.org/data/definitions/787.html)\n- [OWASP Buffer Overflow](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)\n\n___\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-119",
+                    "url": "https://cwe.mitre.org/data/definitions/119.html"
+                  },
+                  {
+                    "id": "CWE-120",
+                    "url": "https://cwe.mitre.org/data/definitions/120.html"
+                  },
+                  {
+                    "id": "CWE-787",
+                    "url": "https://cwe.mitre.org/data/definitions/787.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-119",
+                  "CWE-120",
+                  "CWE-787"
+                ]
+              }
+            }
+          ],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        }
+      },
+      "language": "en-US",
+      "results": [
+        {
+          "ruleId": "8fb68bee-2582-31ba-92d5-ee874ed734b2",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "create_per_cwe_files.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 3,
+                  "endLine": 33,
+                  "endColumn": 9,
+                  "snippet": {
+                    "text": "\t\texit()"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "377b3ded89cf25ef7b06dea0b65de674664df7558797a45a88181b1f349ed24ead028cb2a60cf670e27bf5e3f73b7de0baea3d586458e3600f05222c5e190b16_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "79188393-b978-3540-983c-7fb10462db95",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "create_per_cwe_files.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 9,
+                  "snippet": {
+                    "text": "\t\texit()"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "377b3ded89cf25ef7b06dea0b65de674664df7558797a45a88181b1f349ed24ead028cb2a60cf670e27bf5e3f73b7de0baea3d586458e3600f05222c5e190b16_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "3578840f-6496-3b2f-944b-7c377c56d86f",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "create_per_cwe_files.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 30,
+                  "endLine": 46,
+                  "endColumn": 46,
+                  "snippet": {
+                    "text": "\tcwe_dirs = filter(lambda x: os.path.isdir(x), cwe_dirs)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "a706c53feb465aa49807f930d9459f2aed45a5aa2d12129cf754756dd9aeb0712f0b7562fc167170ccce46508c2d28e860cdd06444504b196ebd0071e5a37ac5_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "bf9e6d03-cd4f-3b0a-843a-dd913fbfd071",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "create_per_cwe_files.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 4,
+                  "endLine": 38,
+                  "endColumn": 10,
+                  "snippet": {
+                    "text": "\t\t\texit()"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "377b3ded89cf25ef7b06dea0b65de674664df7558797a45a88181b1f349ed24ead028cb2a60cf670e27bf5e3f73b7de0baea3d586458e3600f05222c5e190b16_2"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "8b5b54bf-bb8b-3d5a-86ef-5cdda6afba98",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 4,
+                  "endLine": 95,
+                  "endColumn": 11,
+                  "snippet": {
+                    "text": "\t\t\texit(1)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "fdb0bf757d602ad805bc8ce3a9dd050937c80b0535c1e08249c24f7e61bd49e163c7ca508622eeacd539f606a658fac00ab1b2375115eda4d46b74e5605b845b_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "b3339c37-11d2-3cbe-82a1-816ddac32ade",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `get_testcase_filename_regex()` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 12,
+                  "endLine": 89,
+                  "endColumn": 82,
+                  "snippet": {
+                    "text": "\t\tresult = re.search(get_testcase_filename_regex(), btc_file_name, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "a17bda9780770d1973c02157cab0e889229b0a1ef4881918a4502913095ff8ae0c0d4cee073d978aab51010abdec8972d3828c666ae395c4f3424b00261ad697_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "1f21b64c-c277-3681-b5c9-fcc20fdcf621",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 12,
+                  "endLine": 163,
+                  "endColumn": 42,
+                  "snippet": {
+                    "text": "\t\twriter = csv.writer(f, dialect='excel')"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9899a48eef6b0efa2817b6f6adaa84eb3c98ba7ee4b295373a62dfb1a5af06ceb423a792267a8645f2b2e023a84f37ec51d5acbbac1d89713d42c7f6f6bec5f1_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "4567c2a6-9c61-3813-a83d-71abf4ddca87",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Obfuscation by overriding builtin constructs."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 2,
+                  "endLine": 373,
+                  "endColumn": 11,
+                  "snippet": {
+                    "text": "\tdict = {}"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "0070c886043e798286504a271c5c5b38d32b59f398759920506ca7b70c5287ff5e1f7a4b30d49694204c650bb55291a618bc67445e8635728be6da7ba9349098_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "19db7392-6257-39a6-90f4-54582458dd6a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Detected subprocess function 'check_call' without a static string. If this data can be\ncontrolled by a malicious actor, it may be an instance of command injection.\nAudit the use of this call to ensure it is not controllable by an external resource.\nYou may consider using 'shlex.escape()'.\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 405,
+                  "startColumn": 2,
+                  "endLine": 405,
+                  "endColumn": 87,
+                  "snippet": {
+                    "text": "\tsubprocess.check_call(command, shell=use_shell, stderr=sys.stderr, stdout=sys.stdout)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "918540683c6b75612da89d04a32fa1fe06e7d9d05aa73b9c919cb7c2d1f073ea497ce3429a8f48dacf1e5be2868a8f29ffa0ec5bbd1fc921ef7b354636fbd5b3_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "5c2c0280-eef1-363b-b00d-73e95b926304",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `get_testcase_filename_regex()` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 459,
+                  "startColumn": 11,
+                  "endLine": 459,
+                  "endColumn": 77,
+                  "snippet": {
+                    "text": "\tresult = re.search(get_testcase_filename_regex(), file_name, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "a17bda9780770d1973c02157cab0e889229b0a1ef4881918a4502913095ff8ae0c0d4cee073d978aab51010abdec8972d3828c666ae395c4f3424b00261ad697_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "b259ca19-6365-38f0-bd82-7c091d8279cf",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `regex` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 13,
+                  "endLine": 51,
+                  "endColumn": 50,
+                  "snippet": {
+                    "text": "\t\t\tresult = re.search(regex, name, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7e95d3041dfa13953c64ef1292ac97b90f3da728a6e7a93b824785801e85d1ef033936cbad7314d97e21f69affaecdaef368f8477ae8f78556bc85119b097f24_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "44ef2e67-a43a-3c1d-9c03-f3ec2f3c076a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 13,
+                  "endLine": 197,
+                  "endColumn": 44,
+                  "snippet": {
+                    "text": "\t\t\twriter = csv.writer(fo, dialect='excel')"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9899a48eef6b0efa2817b6f6adaa84eb3c98ba7ee4b295373a62dfb1a5af06ceb423a792267a8645f2b2e023a84f37ec51d5acbbac1d89713d42c7f6f6bec5f1_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "e7dd6de7-26ed-313f-a1a8-06bfb34c5e98",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `regex` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 50,
+                  "snippet": {
+                    "text": "\t\t\tresult = re.search(regex, name, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7e95d3041dfa13953c64ef1292ac97b90f3da728a6e7a93b824785801e85d1ef033936cbad7314d97e21f69affaecdaef368f8477ae8f78556bc85119b097f24_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "617271b1-377f-3990-967b-cf44560b3d24",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 528,
+                  "startColumn": 4,
+                  "endLine": 528,
+                  "endColumn": 10,
+                  "snippet": {
+                    "text": "\t\t\texit()"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "fdb0bf757d602ad805bc8ce3a9dd050937c80b0535c1e08249c24f7e61bd49e163c7ca508622eeacd539f606a658fac00ab1b2375115eda4d46b74e5605b845b_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "fb074e50-126a-36cf-99ed-1f1d25dec85b",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `get_functionname_c_regex()` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 489,
+                  "startColumn": 11,
+                  "endLine": 489,
+                  "endColumn": 78,
+                  "snippet": {
+                    "text": "\tresult = re.search(get_functionname_c_regex(), function_name, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "6fb488858917ebf3dfe78876da46aa4024c2af1c6107bbad2883536295404057645455a27ad334ece7db5a151c0a71130fb532cb650840c12f9c107d22e837a1_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "f236d80d-89e1-3e20-b776-00b4b7d90bc2",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 504,
+                  "startColumn": 12,
+                  "endLine": 504,
+                  "endColumn": 42,
+                  "snippet": {
+                    "text": "\t\twriter = csv.writer(f, dialect='excel')"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9899a48eef6b0efa2817b6f6adaa84eb3c98ba7ee4b295373a62dfb1a5af06ceb423a792267a8645f2b2e023a84f37ec51d5acbbac1d89713d42c7f6f6bec5f1_2"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "308bc29a-1b9f-3c01-a668-15fdad148532",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `func_var_regex` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 592,
+                  "startColumn": 18,
+                  "endLine": 592,
+                  "endColumn": 59,
+                  "snippet": {
+                    "text": "\t\tfilter_regex = re.compile(func_var_regex, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "2e64a0111af6cff8812b852fa61ab6af6941c2316357b2e9796ea8bc61a02932cf33802cfa40a7c169a3e63b50ce436d1970290701b17e2f3518d7969994607a_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "2aa511d7-161e-364c-ac56-720168fa9a92",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `get_cwe_id_regex()` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 646,
+                  "startColumn": 12,
+                  "endLine": 646,
+                  "endColumn": 65,
+                  "snippet": {
+                    "text": "\t\tcwe_id = re.search(get_cwe_id_regex(), os.path.basename(path)).group(1)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "21d6695ffa0d29ed97c66b6e2dc2da0f65cd754dc4ea1578e829c761da7da45271606dee37cbdfef73bebc1552a4f534f84621f187751eea050b813a1cc48b0c_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "70c0afc4-3070-3392-8a72-fcc8f7fcd131",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `get_cwe_id_regex()` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 651,
+                  "startColumn": 12,
+                  "endLine": 651,
+                  "endColumn": 47,
+                  "snippet": {
+                    "text": "\t\tcwe_id = re.search(get_cwe_id_regex(), path).group(1)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "21d6695ffa0d29ed97c66b6e2dc2da0f65cd754dc4ea1578e829c761da7da45271606dee37cbdfef73bebc1552a4f534f84621f187751eea050b813a1cc48b0c_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "1d1f101d-84fb-3ace-8150-88c3b2112ab1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Found an unquoted CSV writer. This is susceptible to injection. Use 'quoting=csv.QUOTE_ALL'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "py_common.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 531,
+                  "startColumn": 13,
+                  "endLine": 531,
+                  "endColumn": 44,
+                  "snippet": {
+                    "text": "\t\t\twriter = csv.writer(fo, dialect='excel')"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "9899a48eef6b0efa2817b6f6adaa84eb3c98ba7ee4b295373a62dfb1a5af06ceb423a792267a8645f2b2e023a84f37ec51d5acbbac1d89713d42c7f6f6bec5f1_3"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "95a58be7-2583-34cf-92db-e759611ea8ec",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `\"CWE\"+str(i)` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update_Main_java_ServletMain_java_and_web_xml.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 10,
+                  "endLine": 96,
+                  "endColumn": 34,
+                  "snippet": {
+                    "text": "\t\ttest = re.compile(\"CWE\"+str(i))"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "fe0dd4422360a487b50489b22b1bbe86e224d56a59183f4e2f6b111510ece7f72bf2a2b0b31695bf567f48ccd2fe3ad99b325c2e76d369f2787e1480dc61281c_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "9b54a113-e66d-3bf0-a015-1d8f06f15c36",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `\"CWE\"+str(i)` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update_Main_java_ServletMain_java_and_web_xml.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 10,
+                  "endLine": 122,
+                  "endColumn": 34,
+                  "snippet": {
+                    "text": "\t\ttest = re.compile(\"CWE\"+str(i))"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "fe0dd4422360a487b50489b22b1bbe86e224d56a59183f4e2f6b111510ece7f72bf2a2b0b31695bf567f48ccd2fe3ad99b325c2e76d369f2787e1480dc61281c_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "53208c83-9bb9-3307-82f2-ea624115e01c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `\"Servlet\"` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update_Main_java_ServletMain_java_and_web_xml.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 15,
+                  "endLine": 159,
+                  "endColumn": 51,
+                  "snippet": {
+                    "text": "\t\treServlet = re.compile(\"Servlet\", re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7451bf7a8f23ec9f0862f418bc6d6f419e1ae6f0578c7f1a62b094dfc9d00eb824cd0cae635f967ea88faf5769162fb7aa61a4d6c60665f2a01f786a62a8fdc1_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "76fcc9cf-a894-3bd1-a1c3-b487bdc389f9",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Regex `py_common.get_primary_testcase_filename_regex()` may be vulnerable to catastrophic backtracking, which may lead to denial of service attacks. (This rule only matches regex usage, not actual REDoS patterns. For full detection, use Semgrep Pro Engine.)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "update_Main_java_ServletMain_java_and_web_xml.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 13,
+                  "endLine": 19,
+                  "endColumn": 92,
+                  "snippet": {
+                    "text": "\t\t\tresult = re.search(py_common.get_primary_testcase_filename_regex(), name, re.IGNORECASE)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "f7d84e6b59e8260e71248dbb07ca5888d4c2758853426146b17513e03b6cc488c21b06b0b01fb0d0d191f31cdf58acec37e39695c2facd6102a2d0ca1ef0d34b_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "8eead687-a9f9-3db4-a6bb-14e0c662a1f1",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Banned C function detected (strncpy)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE111_Unsafe_JNI/linux.jni.files/libJNITest.cpp"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 1,
+                  "endLine": 33,
+                  "endColumn": 31,
+                  "charOffset": 1179,
+                  "charLength": 30,
+                  "snippet": {
+                    "text": "strncpy(result, mfile, length)",
+                    "rendered": {
+                      "text": "strncpy(result, mfile, length)",
+                      "markdown": "`strncpy(result, mfile, length)`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "badb4c895b0c89e22dbe536c4b4bb680895969226b5a32808da3e05c0bae76ec",
+            "glog-pfp-ruleFileCode/v1": "eaeb84a8af8cccda4c195dd4322419349de3a6a8e16ebe1c05bafb8de205bade"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "eaeb84a8af8cccda4c195dd4322419349de3a6a8e16ebe1c05bafb8de205bade"
+          },
+          "fixes": [
+            {
+              "description": {
+                "text": "strncpy is dangerous, as if the source contains 'n' or more characters, it will not null terminate the destination."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "src/testcases/CWE111_Unsafe_JNI/linux.jni.files/libJNITest.cpp"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 1179,
+                        "charLength": 30
+                      },
+                      "insertedContent": {
+                        "text": "strcpy_s(result,  length,  mfile)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "description": {
+                "text": "strncpy is dangerous, as if the source contains 'n' or more characters, it will not null terminate the destination."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "src/testcases/CWE111_Unsafe_JNI/linux.jni.files/libJNITest.cpp"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 1179,
+                        "charLength": 30
+                      },
+                      "insertedContent": {
+                        "text": "strlcpy(result,  mfile,  length)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "Important",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "API.DangerousAPI.BannedFunction"
+            ]
+          }
+        },
+        {
+          "ruleId": "90b3a8ca-0960-3292-b941-f4f3fbbeb3bd",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Banned C function detected (strncpy)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/testcases/CWE111_Unsafe_JNI/visual.studio.jni.dll.project/JNITest/JNITest/JNITest.cpp"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 1,
+                  "endLine": 34,
+                  "endColumn": 31,
+                  "charOffset": 1129,
+                  "charLength": 30,
+                  "snippet": {
+                    "text": "strncpy(result, mfile, length)",
+                    "rendered": {
+                      "text": "strncpy(result, mfile, length)",
+                      "markdown": "`strncpy(result, mfile, length)`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "0022cdaea040b6318ea6cb6408fea75c09cded0648242fe40955b634a50134f2",
+            "glog-pfp-ruleFileCode/v1": "d4e7c717280ccb62ffbc481952f1fcbb2536b82294b2b2c35c16e957942f64a5"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "d4e7c717280ccb62ffbc481952f1fcbb2536b82294b2b2c35c16e957942f64a5"
+          },
+          "fixes": [
+            {
+              "description": {
+                "text": "strncpy is dangerous, as if the source contains 'n' or more characters, it will not null terminate the destination."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "src/testcases/CWE111_Unsafe_JNI/visual.studio.jni.dll.project/JNITest/JNITest/JNITest.cpp"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 1129,
+                        "charLength": 30
+                      },
+                      "insertedContent": {
+                        "text": "strcpy_s(result,  length,  mfile)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "description": {
+                "text": "strncpy is dangerous, as if the source contains 'n' or more characters, it will not null terminate the destination."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "src/testcases/CWE111_Unsafe_JNI/visual.studio.jni.dll.project/JNITest/JNITest/JNITest.cpp"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 1129,
+                        "charLength": 30
+                      },
+                      "insertedContent": {
+                        "text": "strlcpy(result,  mfile,  length)"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "Important",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "API.DangerousAPI.BannedFunction"
+            ]
+          }
+        }
+      ],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ]
+    }
+  ]
+}
